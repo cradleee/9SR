@@ -87,6 +87,10 @@ nav a:hover {
     height: 1200px;
 }
 
+#section4 {
+    padding-bottom: 30px;
+}
+
 .section1 {
     position: relative;
 }
@@ -209,13 +213,13 @@ nav a:hover {
 
 .p9 {
     position: absolute;
-    top: 760px;
+    top: 800px;
     right: 0px;
 }
 
 .p9 {
     position: absolute;
-    top: 1032px;
+    top: 760px;
     right: 0px;
 }
 
@@ -269,33 +273,13 @@ h3 {
     z-index: 2;
 }
 
-/*
-.contents {
-    background-color: #656;
-    width: 800px;
-    height: 420px;
-    z-index: 1;
-}
-
-.contents-caption {
-    font-size: 24px;
-    font-family: "Pigumo";
-    color: #000;
-}
-
-.contents-paragraph {
-    margin-top: 8px;
-    font-size: 18px;
-    font-family: "din-light";
-    color: #808080;
-    line-height: 28.5px;
-}
-*/
 
 footer {
-    height: 50px;
-    line-height: 50px;
+    position: fixed;
     text-align: center;
+    bottom: 0;
+    height: 100px;
     color: #000;
     font-family: "din-bold";
+    clear:both;
 }
