@@ -27,8 +27,6 @@ div {
     display: block;
 }
 
-
-
 body {
     widows: 100%;
     background: #f9f9f9;
@@ -37,7 +35,7 @@ body {
 
 .container {
     width: 1024px;
-    height: 100vh;
+    height: 90vh;
     margin: auto auto;
     top: 0;
     bottom: 0;
@@ -49,9 +47,8 @@ body {
 #menu {
     overflow: hidden;
     background: none;
-    padding: 6px 10px;
+    padding: 0px 50px;
     position: fixed;
-    z-index: 2;
 }
 
 nav {
@@ -62,7 +59,6 @@ nav li {
     width: 70px;
     text-align: left;
     list-style-type: none;
-    margin-top: 2px;
 }
 
 nav a {
@@ -78,11 +74,228 @@ nav a:hover {
     border-bottom: 2px solid #000;
 }
 
-
 #section1 {
-    padding: 20px;
+    height: 1032px;
 }
 
-.p1 {
-    
+#section2 {
+    height: 640px;
+    margin-bottom: 64px;
+}
+
+#section3 {
+    height: 1200px;
+}
+
+.section1 {
+    position: relative;
+}
+
+.rogo {
+    position: absolute;
+    left: 110px;
+    top: 110px;
+}
+
+.running {
+    position: absolute;
+    right: -5px;
+    top: 156px;
+/*    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);*/
+}
+
+.p2 {
+    position: relative;
+    z-index: 1;
+    top: -20px;
+}
+
+.kapsel {
+    position: absolute;
+    z-index: 3;
+    width: 210px;
+    height: 370px;
+    left: 50px;
+    top: 700px;
+}
+
+.p3 {
+    position: absolute;
+    z-index: 2;
+    top: 510px;
+    left: 295px;
+}
+
+.about h2 {
+    position: absolute;
+    font-size: 24px;
+    font-family: "Pigumo";
+    z-index: 3;
+    top: 700px;
+    left: 530px;
+}
+
+.about p{
+    position: absolute;
+    font-size: 16px;
+    font-family: "Kozuka";
+    z-index: 2;
+    top: 800px;
+    left: 520px;
+}
+
+.p4 {
+    position: absolute;
+    top: 60px
+}
+ 
+.p5up {
+    float: right;
+    position: absolute;
+    top: 100px;
+    left: 670px;
+    z-index: 4;
+/*    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);*/
+}
+
+.p5 {
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    z-index: 3;
+}
+
+.p6 {
+    position: absolute;
+    z-index: 1;
+}
+
+.p7 {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+}
+.releseday {
+    position: absolute;
+    z-index: 2;
+    top: -56px;
+    left: 56px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+}
+
+.jacket {
+    z-index: 3;
+    position: absolute;
+    top: 90px;
+    left: 48px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+}
+
+.album {
+    right: 100px;
+    font-size: 24px;
+    color: #701a1b;
+    position: absolute;
+    font-family: "Pigumo";
+    z-index: 2;
+    margin-top: 32px;
+}
+
+.p8 {
+    position: absolute;
+    top: 500px;
+}
+
+.p9 {
+    position: absolute;
+    top: 760px;
+    right: 0px;
+}
+
+.p9 {
+    position: absolute;
+    top: 1032px;
+    right: 0px;
+}
+
+.p10 {
+    position: absolute;
+    top: 1032px;
+    right: 0px;
+}
+
+.p11 {
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    float: left;
+}
+
+h3 {
+    position: absolute;
+    font-size: 24px;
+    font-family: "Pigumo";
+    left: 450px;
+    top: 120px;
+    z-index: 2;
+}
+
+.contents-left {
+    position: absolute;
+    font-size: 16px;
+    font-family: "Kozuka";
+    left: 200px;
+    top: 180px;
+    z-index: 2;
+}
+
+.contents-center {
+    text-align: right;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Kozuka";
+    left: 280px;
+    top: 180px;
+    z-index: 2;
+}
+
+.contents-right {
+    position: absolute;
+    font-size: 16px;
+    font-family: "Kozuka";
+    left: 340px;
+    top: 180px;
+    z-index: 2;
+}
+
+/*
+.contents {
+    background-color: #656;
+    width: 800px;
+    height: 420px;
+    z-index: 1;
+}
+
+.contents-caption {
+    font-size: 24px;
+    font-family: "Pigumo";
+    color: #000;
+}
+
+.contents-paragraph {
+    margin-top: 8px;
+    font-size: 18px;
+    font-family: "din-light";
+    color: #808080;
+    line-height: 28.5px;
+}
+*/
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+    font-family: "din-bold";
 }
