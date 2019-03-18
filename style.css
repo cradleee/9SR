@@ -35,7 +35,7 @@ body {
 
 .container {
     width: 1024px;
-    height: 90vh;
+    height: 100vh;
     margin: auto auto;
     position: relative;
 }
@@ -115,7 +115,7 @@ nav a:hover {
     top: 165px;
     animation-duration: 3s;
     animation-name: RightToLeft;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 .p2 {
@@ -164,13 +164,13 @@ nav a:hover {
 }
 
 .upshelf {
-    padding-top: 80px;
+    padding-top: 100px;
     margin-left: 35px;
 }
 
 .downshelf {
     margin-left: 40px;
-    margin-top: 60px;
+    margin-top: 30px;
 
 }
 
@@ -279,7 +279,7 @@ nav a:hover {
     position: relative;
     top: 40px;
     z-index: 1;
-    float: left;
+    overflow:hidden;
 }
 
 h3 {
@@ -320,12 +320,14 @@ h3 {
 }
 
 
+/*
 footer {
-    position: fixed;
+    position:absolute;
     text-align: center;
     bottom: 0;
     height: 100px;
+    width: 100%;
     color: #000;
     font-family: "din-bold";
-    clear: both;
 }
+*/
